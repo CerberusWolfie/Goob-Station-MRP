@@ -13,6 +13,7 @@
     - IPCs
     - Harpy
     - Shadowkin
+    - Rodentia
 
 - type: guideEntry
   id: Arachnid
@@ -58,7 +59,7 @@
   id: Harpy
   name: species-name-harpy
   text: "/ServerInfo/Guidebook/Mobs/Harpy.xml"
-  
+
 - type: guideEntry
   id: Shadowkin
   name: species-name-shadowkin

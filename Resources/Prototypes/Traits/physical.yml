@@ -322,6 +322,7 @@
       inverted: true
       species:
         - Felinid # Felinids already have this feature by default.
+        - Rodentia # Floof - Rodentia
     - !type:CharacterHeightRequirement
       max: 150
     - !type:CharacterWidthRequirement
@@ -390,6 +391,7 @@
         - Reptilian # Reptilians also have cat claws.
         - Shadowkin # Shadowkins also have claws.
         # - Vulpkanin # Vulpkanin have "Blunt" claws. One could argue this trait "Sharpens" their claws.
+        - Rodentia # Floof - Rodentia already has it 
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
