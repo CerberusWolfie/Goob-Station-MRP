@@ -48,7 +48,7 @@
   - HeadOfSecurity
   - ResearchDirector
   - Quartermaster
-  - Magistrate
+  - Magistrate # Goobstation - Magistrate, see Resources/Prototypes/_Goobstation/Roles/Jobs/Command/magistrate.yml
   primary: false
   weight: 100
 
