@@ -1,7 +1,7 @@
 - type: job
   id: Magistrate
   name: Magistrate
-  description: "Represent NT, Ensure Space Law is being followed, Uphold Justice and Leglity, Hold Hearings and Trials, Follow SOP, Ensure Command is Following Space Law."
+  description: "Ensure Space Law is being followed, Uphold Justice and Leglity, Hold Hearings and Trials, Follow SOP, Ensure Command is Following Space Law."
   playTimeTracker: JobMagistrate
   requirements:
     - !type:CharacterDepartmentTimeRequirement
@@ -42,6 +42,7 @@
 - type: startingGear
   id: MagistrateGear
   equipment:
+    jumpsuit: ClothingUniformJumpsuitMagistrate
     shoes: ClothingShoesBootsLaceup
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesColorWhite
