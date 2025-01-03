@@ -1,0 +1,50 @@
+- type: job
+  id: Magistrate
+  name: Magistrate
+  description: "Represent NT, Ensure Space Law is being followed, Uphold Justice and Leglity, Hold Hearings and Trials, Follow SOP, Ensure Command is Following Space Law."
+  playTimeTracker: JobMagistrate
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Command
+      time: 180000 # 50 Hours (Same as NTR)
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      time: 90000 # 25 hours (Same as BSO)
+  weight: 20
+  startingGear: MagistrateGear
+  icon: "JobIconMagistrate"
+  requireAdminNotify: true
+  joinNotifyCrew: true
+  supervisors: job-supervisors-centcom
+  canBeAntag: false
+  accessGroups:
+  - CentralCommand
+  - Command
+  #- Brig # - Delta-V Removed (I did too just in case)
+  - Security
+  - Armory
+  - Maintenance
+  - Service
+  - External
+  - Detective
+  - Corpsman
+  - Cryogenics
+  - Engineering
+  - Medical
+  - Research
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+      - type: CommandStaff
+
+- type: startingGear
+  id: MagistrateGear
+  equipment:
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesSunglasses
+    gloves: ClothingHandsGlovesColorWhite
+    id: CentcomPDA
+    ears: ClothingHeadsetAltCentCom
+    pocket1: UniqueMagistrateLockerTeleporter
