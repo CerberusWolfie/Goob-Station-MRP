@@ -23,6 +23,7 @@
       - left arm
       - right leg
       - left leg
+      - head # Shitmed change
     right arm:
       part: RightArmRodentia
       connections:
